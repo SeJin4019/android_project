@@ -13,6 +13,27 @@
         android:theme="@style/Theme.My_Project"
         tools:targetApi="31" >
         <activity
+            android:name=".info_add.info_add_private"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".info_add.info_add_password"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".info_add.Login"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".info_add.info_add_id"
             android:exported="false" >
             <meta-data

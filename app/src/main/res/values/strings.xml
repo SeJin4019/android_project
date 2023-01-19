@@ -9,4 +9,23 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+
+    <!-- 회원가입 -->
+    <string name="info_add_welcom">첫번째 단계에요!🌱\n사용하실 아이디를 설정해주세요!!</string>
+    <string name="id_hint">사용하실 아이디를 입력해주세요!</string>
+    <string name="info_add_password">거의 다왔어요!!\n두번째 단계에요!🌱\n사용하실 비밀번호를 설정해주세요!!</string>
+    <string name="password_hint">사용하실 비밀번호를 한번 더 입력해주세요!</string>
+    <string name="info_add_private">정말로 거의 다왔어요!!\n마지막 단계에요!🌱\n본인의 이름, 사용할 닉네임, 전화번호, 생일을\n입력해주세요!!</string>
+    <string name="info_add_name">본인의 이름을 입력해주세요!</string>
+    <string name="info_add_nick">사용하실 닉네임을 입력해주세요!</string>
+    <string name="info_add_tel">본인의 전화번호를 입력해주세요!</string>
+    <string name="info_add_birthbay">본인의 생일을 입력해주세요!</string>
+
+
+    <!-- 로그인 -->
+    <string name="loginemailInput">이메일을 입력해주세요.</string>
+    <string name="loginpwInput">비밀번호를 입력해주세요.</string>
+    <string name="login">로그인</string>
+    <string name="kakaologin">카카오톡 로그인</string>
+
 </resources>
