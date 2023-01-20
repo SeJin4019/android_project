@@ -87,7 +87,7 @@
             android:padding="13dp" />
 
         <!-- 생일 입력창 나중에 검색해보고 선택 창으로 변환 예정 -->
-        <EditText
+        <Button
             android:id="@+id/birthday"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
@@ -95,11 +95,10 @@
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
             android:layout_marginBottom="15dp"
-            android:background="@drawable/edit_text_border_basic"
             android:fontFamily="@font/bmjua_font"
-            android:hint="@string/info_add_birthbay"
-            android:inputType="text"
-            android:padding="13dp" />
+            android:onClick="showDatePicker"
+            android:padding="13dp"
+            android:text="생일을 입력해주세요!" />
 
 
     </LinearLayout>

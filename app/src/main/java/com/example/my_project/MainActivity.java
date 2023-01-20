@@ -10,7 +10,10 @@ import android.widget.Button;
 import com.example.my_project.info_add.Login;
 import com.example.my_project.info_add.info_add_id;
 
+import java.text.CollationElementIterator;
+
 public class MainActivity extends AppCompatActivity {
+    public CollationElementIterator birthday;
     Button info_add_btn;
     Button login_btn;
     @Override
@@ -28,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(go_info_add_id);
             }
         });
+        
         // 로그인 버튼 입력시
         login_btn.setOnClickListener(new View.OnClickListener() {
             @Override
